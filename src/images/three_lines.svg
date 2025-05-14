@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 21" width="32" height="21">
+	<title>3</title>
+	<style>
+		.s0 { fill: #252525 } 
+	</style>
+	<path id="1" fill-rule="evenodd" class="s0" d="m2 0h29v3h-29z"/>
+	<path id="2" fill-rule="evenodd" class="s0" d="m16 8h15v3h-15z"/>
+	<path id="3" fill-rule="evenodd" class="s0" d="m2 16h29v3h-29z"/>
+</svg>
