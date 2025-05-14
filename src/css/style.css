@@ -1,3 +1,8 @@
+h1,
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .header-div {
   margin: 20px;
   display: flex;
@@ -33,7 +38,6 @@
   letter-spacing: 1px;
 }
 
-
 .container1 {
   background-color: white;
   text-align: center;
@@ -44,7 +48,6 @@
 .div1 {
   text-align: center;
   background-color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .div2 {
@@ -53,7 +56,6 @@
 
 .boxa {
   background-color: white;
-
 }
 
 .boxa2 {
@@ -81,4 +83,37 @@
 .header-center p {
   margin: 0;
   margin-right: 20px;
+}
+
+.top-part {
+  margin: 20px;
+}
+.top-part-left {
+  font-size: 40px;
+}
+.top-part-right {
+  background-image: url("/src/images/landing_page_image.svg");
+  width: 10px;
+}
+
+.top-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 8px;
+}
+.button {
+  background-color: #0c426e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button-black {
+  background-color: #252525;
 }
