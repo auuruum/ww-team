@@ -4,6 +4,9 @@ div {
 
 .header-div {
   margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .car_wash_logo {
@@ -28,6 +31,7 @@ div {
 
 .car_wash_logo p {
   margin-top: 10px;
+  margin-bottom: 0px;
   color: black;
   font-size: 16px;
   font-weight: bold;
