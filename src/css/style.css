@@ -33,3 +33,39 @@ div {
   font-weight: bold;
   letter-spacing: 1px;
 }
+
+
+.container1{
+  background-color: white;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.div1{
+  text-align: center;
+  background-color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div2{
+  background-color: white;
+}
+
+.boxa{
+  background-color: white;
+  
+}
+
+.boxa2{
+  background-color: blue;
+}
+
+.container2{
+  background-color: white;
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5, 300px);
+}
+
