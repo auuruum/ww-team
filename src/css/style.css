@@ -1,3 +1,8 @@
+h1,
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .header-div {
   margin: 20px;
   display: flex;
@@ -33,20 +38,18 @@
   letter-spacing: 1px;
 }
 
-
 .container1 {
   background-color: white;
   text-align: left;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-column-gap:10px;
+  grid-column-gap: 10px;
   height: 150px;
 }
 
 .div1 {
   text-align: center;
   background-color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .div2 {
@@ -63,19 +66,19 @@
   color: white;
 }
 
-.copyright{
+.copyright {
   border: 1px;
   text-align: center;
 }
 
 button {
-background-color: blue;
-color: white;
+  background-color: blue;
+  color: white;
 }
 
 .container2 {
   height: 350px;
-  background-color:black;
+  background-color: black;
   color: white;
   text-align: left;
   display: grid;
@@ -96,4 +99,41 @@ color: white;
 .header-center p {
   margin: 0;
   margin-right: 20px;
+}
+
+.top-part {
+  margin: 20px;
+}
+
+.top-part-left {
+  font-size: 40px;
+}
+
+.top-part-right {
+  background-image: url("/src/images/landing_page_image.svg");
+  width: 10px;
+}
+
+.top-part {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 8px;
+}
+
+.button {
+  background-color: #0c426e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-black {
+  background-color: #252525;
 }
