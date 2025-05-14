@@ -34,37 +34,37 @@
 }
 
 
-.container1{
+.container1 {
   background-color: white;
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.div1{
+.div1 {
   text-align: center;
   background-color: white;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.div2{
+.div2 {
   background-color: white;
 }
 
-.boxa{
+.boxa {
   background-color: white;
-  
+
 }
 
-.boxa2{
+.boxa2 {
   background-color: blue;
 }
 
-.container2{
+.container2 {
   background-color: white;
   text-align: left;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(5, 300px);
 }
 
