@@ -1,0 +1,35 @@
+div {
+  background-color: red;
+}
+
+.header-div {
+  margin: 20px;
+}
+
+.car_wash_logo {
+  background-color: green;
+  width: 8%;
+  text-align: center;
+  height: auto;
+  font-family: "Poppins", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.car_wash_logo img {
+  width: 80%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.car_wash_logo p {
+  margin-top: 10px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
