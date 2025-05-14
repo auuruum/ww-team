@@ -36,9 +36,11 @@
 
 .container1 {
   background-color: white;
-  text-align: center;
+  text-align: left;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-column-gap:10px;
+  height: 150px;
 }
 
 .div1 {
@@ -53,19 +55,32 @@
 
 .boxa {
   background-color: white;
-
+  padding: 25px;
 }
 
 .boxa2 {
   background-color: blue;
+  color: white;
+}
+
+.copyright{
+  border: 1px;
+  text-align: center;
+}
+
+button {
+background-color: blue;
+color: white;
 }
 
 .container2 {
-  background-color: white;
+  height: 350px;
+  background-color:black;
+  color: white;
   text-align: left;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 300px);
+  padding: 10px;
 }
 
 .header-center {
