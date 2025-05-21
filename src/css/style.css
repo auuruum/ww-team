@@ -70,6 +70,9 @@ p {
   border: 1px;
   text-align: center;
 }
+.copyright_div {
+  text-align: center;
+}
 
 button {
   background-color: blue;
@@ -78,14 +81,20 @@ button {
 
 .container2 {
   height: 350px;
-  background-color: black;
+  background-color: #252525;
   color: white;
   text-align: left;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 10px;
+  padding: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
-
+.copyright_div {
+  padding-left: 50px;
+  padding-right: 50px;
+  grid-column: span 4 / span 4;
+}
 .header-center {
   display: flex;
   align-items: center;
@@ -133,7 +142,34 @@ button {
   margin: 4px 2px;
   cursor: pointer;
 }
+.boxb4 button {
+  background-color: #0c426e;
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 .button-black {
   background-color: #252525;
+}
+.gray_text_color {
+  color: #a4a4a4;
+}
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.contact-item p {
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+.links_icons {
+  font-size: large;
 }
