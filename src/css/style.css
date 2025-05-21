@@ -3,6 +3,11 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h2, h3{
+  font-family: "Poppins", Times, serif;
+  text-align: center;
+}
+
 .header-div {
   margin: 20px;
   display: flex;
@@ -86,6 +91,25 @@ button {
   padding: 10px;
 }
 
+.container3{
+  height: 800px;
+  border-radius: 1px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 400px);
+  padding: 10px;
+}
+
+.boxc{
+  padding: 100px;
+}
+
+
+.p1{
+  text-align: center;
+}
+
 .header-center {
   display: flex;
   align-items: center;
@@ -136,4 +160,19 @@ button {
 
 .button-black {
   background-color: #252525;
+}
+.container3 .boxc2{
+  background-image: url("/src/images/our_service_image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container3 .boxc4{
+  background-image: url("/src/images/landing_page_image.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container3 .boxc6{
+  background-image: url("/src/images/full_service.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
