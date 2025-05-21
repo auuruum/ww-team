@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" width="54" height="54">
+	<title>Ellipse 1 copy</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 20px;line-height: 31px;fill: #ffffff;font-weight: 600;font-family: "Poppins-SemiBold", "Poppins" } 
+		.s1 { fill: none;stroke: #ffffff;stroke-miterlimit:100;stroke-width: 1.9 } 
+	</style>
+	<text id="02" style="transform: matrix(1,0,0,1,26.152,34.039)" >
+		<tspan x="-12.2" y="0" class="t0">0</tspan><tspan  y="0" class="t0">2
+</tspan>
+	</text>
+	<path id="Ellipse 1 copy" fill-rule="evenodd" class="s1" d="m27 1c14.4 0 26 11.6 26 26 0 14.4-11.6 26-26 26-14.4 0-26-11.6-26-26 0-14.4 11.6-26 26-26z"/>
+</svg>

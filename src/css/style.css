@@ -47,13 +47,15 @@ h3 {
   letter-spacing: 1px;
 }
 
-.container1 {
+.why_choose_us_container {
   background-color: white;
   text-align: left;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2);
   grid-column-gap: 10px;
-  height: 150px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .div1 {
@@ -71,10 +73,20 @@ h3 {
 }
 
 .boxa2 {
-  background-color: blue;
+  background-color: #0c426e;
   color: white;
 }
 
+.boxa h3 {
+  color: #0c426e;
+  text-align: left;
+}
+.boxa2 h3 {
+  color: white;
+}
+.why_choose_us_container .drop_shadow {
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
 .copyright {
   border: 1px;
   text-align: center;
@@ -106,17 +118,25 @@ button {
 }
 
 .container3 {
-  height: 800px;
+  height: 100%;
   border-radius: 1px;
   text-align: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 400px);
+  grid-template-rows: repeat(3);
   padding: 10px;
 }
-
+.container3 .blue_text_container {
+  grid-column: span 3 / span 3;
+}
 .boxc {
-  padding: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 
 .p1 {
@@ -206,6 +226,9 @@ button {
 .gray_text_color {
   color: #a4a4a4;
 }
+.gray_text_color h3 {
+  text-align: left;
+}
 .contact-item {
   display: flex;
   align-items: center;
@@ -232,5 +255,22 @@ button {
   margin-top: 0px;
   width: 3%;
   border-bottom: 10px solid #252525;
-  border-radius: 5px; /* Round the edges */
+  border-radius: 5px;
+}
+.why_choose_us_main_container {
+  height: 100%;
+}
+.boxc5 {
+  height: 100%;
+}
+.why_choose_us_content_top {
+  display: flex;
+}
+.why_choose_us_content_top img {
+  width: 40px;
+  padding-right: 10px;
+}
+
+.why_choose_us_container .div1 {
+  grid-column: span 3 / span 3;
 }
