@@ -6,7 +6,8 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h2, h3{
+h2,
+h3 {
   font-family: "Poppins", Times, serif;
   text-align: center;
 }
@@ -104,7 +105,7 @@ button {
   grid-column: span 4 / span 4;
 }
 
-.container3{
+.container3 {
   height: 800px;
   border-radius: 1px;
   text-align: center;
@@ -114,12 +115,11 @@ button {
   padding: 10px;
 }
 
-.boxc{
+.boxc {
   padding: 100px;
 }
 
-
-.p1{
+.p1 {
   text-align: center;
 }
 
@@ -148,7 +148,9 @@ button {
 
 .top-part-right {
   background-image: url("/src/images/landing_page_image.svg");
-  width: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
 .top-part {
@@ -186,17 +188,17 @@ button {
 .button-black {
   background-color: #252525;
 }
-.container3 .boxc2{
+.container3 .boxc2 {
   background-image: url("/src/images/our_service_image.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container3 .boxc4{
+.container3 .boxc4 {
   background-image: url("/src/images/landing_page_image.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container3 .boxc6{
+.container3 .boxc6 {
   background-image: url("/src/images/full_service.svg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,4 +217,20 @@ button {
 }
 .links_icons {
   font-size: large;
+}
+.blue_text_container h1 {
+  margin-bottom: 4px;
+}
+.blue_text_container h2 {
+  margin-bottom: 4px;
+}
+.blue_text {
+  color: #0c426e;
+  margin-bottom: 0px;
+}
+.blue_text_hr {
+  margin-top: 0px;
+  width: 3%;
+  border-bottom: 10px solid #252525;
+  border-radius: 5px; /* Round the edges */
 }
