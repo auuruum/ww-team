@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>CarClean - Professional Car Wash Services</title>
   <link rel="stylesheet" href="src/css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,177 +15,185 @@
 </head>
 
 <body>
-  <div class="header-div">
-    <div class="car_wash_logo">
-      <img src="src/images/car_wash_logo.svg" alt="Car wash logo" />
+  <header class="site-header">
+    <div class="site-header__logo">
+      <img src="src/images/car_wash_logo.svg" alt="CarClean logo" />
       <p>CarClean</p>
     </div>
-    <div class="header-center">
-      <i class="fa-solid fa-phone"></i>
-      <p>Call : +01 1234567890</p>
-      <i class="fa-solid fa-envelope"></i>
-      <p>Email : demo@gmail.com</p>
-      <i class="fa-solid fa-location-dot"></i>
-      <p>Location : lorm ipusm</p>
+    <div class="site-header__contact">
+      <div class="contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <p>Call : +01 1234567890</p>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <p>Email : demo@gmail.com</p>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <p>Location : lorm ipusm</p>
+      </div>
     </div>
-    <img class="three_lines" src="src/images/three_lines.svg" alt="Three lines" />
-  </div>
-
-  <div class="top-part">
-    <div class="top-part-left">
-      <h1>Keep your
-        Car Clean
-        Always</h1>
-      <p>There are many variations of passages of Lorem Ipsum available</p>
-      <a href="#" class="button">Get A Quote</a>
-      <a href="#" class="button button-black">Contact Us</a>
+    <div class="site-header__menu">
+      <img src="src/images/three_lines.svg" alt="Menu toggle" />
     </div>
-    <div class="top-part-right"></div>
-  </div>
+  </header>
 
-  <div class="our_service_container">
-    <div class="container3">
-      <div class="blue_text_container">
-        <h2>Our <span class="blue_text">Services</span></h2>
-        <hr class="blue_text_hr">
+  <section class="hero">
+    <div class="hero__content">
+      <h1 class="hero__title">Keep your Car Clean Always</h1>
+      <p class="hero__description">There are many variations of passages of Lorem Ipsum available</p>
+      <div class="hero__buttons">
+        <a href="#" class="btn btn--primary">Get A Quote</a>
+        <a href="#" class="btn btn--secondary">Contact Us</a>
       </div>
-      <div class="boxc boxc1">
-        <h2>Express Exterior</h2>
-        <p class="p1">It is a long established fact that a reader will be distracted by the readable content of a page
-          when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-          of
-          letters, as opposed </p>
-        <h3>See More</h3>
-      </div>
-      <div class="boxc boxc2"></div>
-      <div class="boxc boxc3">
-        <h2>Full Service Car Wash</h2>
-        <p class="p1">It is a long established fact that a reader will be distracted by the readable content of a page
-          when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-          of
-          letters, as opposed </p>
-        <h3>See More</h3>
-      </div>
-      <div class="boxc boxc4"></div>
-      <div class="boxc boxc5">
-        <h2>Auto Detailing</h2>
-        <p class="p1">It is a long established fact that a reader will be distracted by the readable content of a page
-          when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
-          of
-          letters, as opposed </p>
-        <h3>See More</h3>
-      </div>
-      <div class="boxc boxc6"></div>
     </div>
-  </div>
+    <div class="hero__image"></div>
+  </section>
 
-
-  <div class="why_choose_us_main_container">
-    <div class="why_choose_us_container">
-      <div class="div1 blue_text_container">
-        <h1>Why <span class="blue_text">Choose us</span></h1>
-        <hr class="blue_text_hr">
+  <section class="services">
+    <div class="services__container">
+      <div class="section-title">
+        <h2 class="section-title__heading">Our <span class="section-title__highlight">Services</span></h2>
+        <hr class="section-title__divider">
       </div>
-      <div class="boxa boxa1 drop_shadow">
-        <div class="why_choose_us_content_top">
-          <img src="src/images/01_number.svg" alt="">
-          <h3>Trusted Services</h3>
+      <div class="service-card">
+        <h2 class="service-card__title">Express Exterior</h2>
+        <p class="service-card__description">It is a long established fact that a reader will be distracted by the readable content of a page
+          when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+          of letters, as opposed </p>
+        <h3 class="service-card__link">See More</h3>
+      </div>
+      <div class="service-card service-card--image service-card--express"></div>
+      <div class="service-card">
+        <h2 class="service-card__title">Full Service Car Wash</h2>
+        <p class="service-card__description">It is a long established fact that a reader will be distracted by the readable content of a page
+          when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+          of letters, as opposed </p>
+        <h3 class="service-card__link">See More</h3>
+      </div>
+      <div class="service-card service-card--image service-card--full"></div>
+      <div class="service-card">
+        <h2 class="service-card__title">Auto Detailing</h2>
+        <p class="service-card__description">It is a long established fact that a reader will be distracted by the readable content of a page
+          when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+          of letters, as opposed </p>
+        <h3 class="service-card__link">See More</h3>
+      </div>
+      <div class="service-card service-card--image service-card--detailing"></div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="features__container">
+      <div class="section-title">
+        <h2 class="section-title__heading">Why <span class="section-title__highlight">Choose us</span></h2>
+        <hr class="section-title__divider">
+      </div>
+      <div class="feature-card feature-card--shadow">
+        <div class="feature-card__header">
+          <img src="src/images/01_number.svg" alt="Feature 1" class="feature-card__icon">
+          <h3 class="feature-card__title">Trusted Services</h3>
         </div>
-        <p>
-          box It is a long established fact that a reader will be distracted by the readable content of a page when
-          looking
+        <p class="feature-card__description">
+          It is a long established fact that a reader will be distracted by the readable content of a page when
+          looking at its layout.</p>
+      </div>
+      <div class="feature-card feature-card--shadow feature-card--primary">
+        <div class="feature-card__header">
+          <img src="src/images/02_number.svg" alt="Feature 2" class="feature-card__icon">
+          <h3 class="feature-card__title">Talented Workers</h3>
+        </div>
+        <p class="feature-card__description">It is a long established fact that a reader will be distracted by the readable content of a page when looking
           at its layout.</p>
       </div>
-      <div class="boxa boxa2 drop_shadow">
-        <div class="why_choose_us_content_top">
-          <img src="src/images/02_number.svg" alt="">
-          <h3>02 Talented Workers</h3>
+      <div class="feature-card feature-card--shadow">
+        <div class="feature-card__header">
+          <img src="src/images/03_number.svg" alt="Feature 3" class="feature-card__icon">
+          <h3 class="feature-card__title">Organic Products</h3>
         </div>
-        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
-          at
-          its layout.</p>
-      </div>
-      <div class="boxa boxa3 drop_shadow">
-        <div class="why_choose_us_content_top">
-          <img src="src/images/03_number.svg" alt="">
-          <h3>Organic Products</h3>
-        </div>
-        <p>
+        <p class="feature-card__description">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking
-          at
-          its layout.</p>
+          at its layout.</p>
       </div>
     </div>
-  </div>
+  </section>
 
-  <h1 class="div1">Testimonial</h1>
-  <div class="div2">
-    <article>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking
-        at its layout. The point of using Lorem Ipsum is that</p>
-      <h1>JOECH</h1>
-    </article>
-  </div>
-  <footer>
-    <div class="container2">
-      <div class="boxb boxb1">
-        <h1>Contact Us</h1>
-        <div class="gray_text_color">
-          <div class="contact-item">
+  <section class="testimonials">
+    <h2 class="section-title__heading">Testimonial</h2>
+    <div class="testimonials__container">
+      <article class="testimonial-card">
+        <p class="testimonial-card__content">It is a long established fact that a reader will be distracted by the readable content of a page when looking
+          at its layout. The point of using Lorem Ipsum is that</p>
+        <h3 class="testimonial-card__author">JOECH</h3>
+      </article>
+    </div>
+  </section>
+  <footer class="site-footer">
+    <div class="site-footer__container">
+      <div class="footer-widget">
+        <h3 class="footer-widget__title">Contact Us</h3>
+        <div class="footer-widget__content">
+          <div class="footer-contact">
             <i class="fa-solid fa-location-dot"></i>
             <p>Location</p>
           </div>
-          <div class="contact-item">
+          <div class="footer-contact">
             <i class="fa-solid fa-phone"></i>
             <p>Call +01 1234567890</p>
           </div>
-          <div class="contact-item">
+          <div class="footer-contact">
             <i class="fa-solid fa-envelope"></i>
             <p>demo@gmail.com</p>
           </div>
         </div>
-
       </div>
-      <div class="boxb boxb2">
-        <h1>Useful link</h1>
-        <div class="gray_text_color">
-          <h3>Home</h3>
-          <p>About</p>
-          <p>services</p>
-          <p>Blog</p>
-          <p>Contact Us</p>
+      <div class="footer-widget">
+        <h3 class="footer-widget__title">Useful Links</h3>
+        <div class="footer-widget__content">
+          <nav class="footer-nav">
+            <a href="#" class="footer-nav__link footer-nav__link--active">Home</a>
+            <a href="#" class="footer-nav__link">About</a>
+            <a href="#" class="footer-nav__link">Services</a>
+            <a href="#" class="footer-nav__link">Blog</a>
+            <a href="#" class="footer-nav__link">Contact Us</a>
+          </nav>
         </div>
       </div>
-      <div class="boxb boxb3">
-        <h1>Opening Time</h1>
-        <div class="gray_text_color">
-          <p>Mon : 07:00am to 09:00pm</p>
-          <p>Mon : 07:00am to 09:00pm</p>
-          <p>Mon : 07:00am to 09:00pm</p>
+      <div class="footer-widget">
+        <h3 class="footer-widget__title">Opening Hours</h3>
+        <div class="footer-widget__content">
+          <div class="opening-hours">
+            <p class="opening-hours__item">Mon : 07:00am to 09:00pm</p>
+            <p class="opening-hours__item">Tue : 07:00am to 09:00pm</p>
+            <p class="opening-hours__item">Wed : 07:00am to 09:00pm</p>
+          </div>
         </div>
       </div>
-      <div class="boxb boxb4">
-        <form action="#">
-          <h1>Newsletter</h1>
-          <form action="#">
-            <p>
-              <input type="email" placeholder="Enter Your Email">
-            </p>
-            <button>SUBSCRIBE</button>
+      <div class="footer-widget">
+        <h3 class="footer-widget__title">Newsletter</h3>
+        <div class="footer-widget__content">
+          <form action="#" class="newsletter-form">
+            <div class="newsletter-form__field">
+              <input type="email" placeholder="Enter Your Email" class="newsletter-form__input">
+            </div>
+            <button type="submit" class="btn btn--primary newsletter-form__button">SUBSCRIBE</button>
           </form>
-      </div>
-      <div class="copyright_div">
-        <div class="links_icons">
-          <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
-          <i class="fa-brands fa-square-twitter" style="color: #ffffff;"></i>
-          <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
-          <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
-        </div>
-        <hr>
-        <div class="copyright">
-          <p>© 2020 All Rights Reserved. Design by Free Html templates</p>
         </div>
       </div>
+      <div class="site-footer__bottom">
+        <div class="social-links">
+          <a href="#" class="social-links__item"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#" class="social-links__item"><i class="fa-brands fa-square-twitter"></i></a>
+          <a href="#" class="social-links__item"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" class="social-links__item"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+        <hr class="site-footer__divider">
+        <div class="site-footer__copyright">
+          <p> 2020 All Rights Reserved. Design by Free Html templates</p>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 
