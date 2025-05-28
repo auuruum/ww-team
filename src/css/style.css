@@ -150,10 +150,10 @@ h3 {
   flex-shrink: 0;
 }
 .left-arrow {
-  background-image: url("/src/images/left-arrow.png");
+  background-image: url("../images/left-arrow.png");
 }
 .right-arrow {
-  background-image: url("/src/images/right-arrow.png");
+  background-image: url("../images/right-arrow.png");
 }
 .testimonials__container {
   max-width: 800px;
@@ -197,7 +197,7 @@ h3 {
 }
 
 .testimonials-image {
-  background-image: url("/src/images/testimonial.png");
+  background-image: url("../images/testimonial.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -372,15 +372,15 @@ h3 {
 }
 
 .service-card--express {
-  background-image: url("/src/images/our_service_image.png");
+  background-image: url("../images/our_service_image.png");
 }
 
 .service-card--full {
-  background-image: url("/src/images/landing_page_image.png");
+  background-image: url("../images/landing_page_image.png");
 }
 
 .service-card--detailing {
-  background-image: url("/src/images/full_service.png");
+  background-image: url("../images/full_service.png");
 }
 
 .service-card__title {
@@ -435,7 +435,7 @@ h3 {
 }
 
 .hero__image {
-  background-image: url("/src/images/landing_page_image.png");
+  background-image: url("../images/landing_page_image.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
