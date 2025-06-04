@@ -482,9 +482,10 @@ h3 {
   transition: all 0.3s ease;
 }
 .get_quote_btn {
+  margin-top: 40px;
   display: inline-block;
   padding: 20px 70px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
