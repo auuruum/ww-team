@@ -402,6 +402,31 @@ h3 {
   margin-top: auto;
 }
 
+.quality_sectom_image {
+  background-image: url("../images/our_service_image.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+}
+.background-tint {
+  background-color: rgba(12, 66, 110, 0.5);
+  background-blend-mode: multiply;
+}
+.quality_info {
+  color: white;
+  text-align: center;
+}
+
+.quality_info h1 {
+  padding-top: 200px;
+  padding-bottom: 50px;
+  font-size: 200%;
+}
+.clean_and_quality_content_container {
+  width: 55%;
+  margin: 0 auto;
+  font-weight: lighter;
+}
 .hero {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
