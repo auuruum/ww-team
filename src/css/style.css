@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
 }
 
 h1,
@@ -24,10 +25,13 @@ h3 {
 }
 
 .site-header {
-  margin: 20px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
 }
 
 .site-header__logo {
