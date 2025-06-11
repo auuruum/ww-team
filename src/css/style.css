@@ -439,10 +439,11 @@ h3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 36%;
 }
 
 .hero__title {
-  font-size: 3rem;
+  font-size: 95px;
   line-height: 1.2;
   margin-bottom: 20px;
   color: #333;
@@ -542,6 +543,9 @@ h3 {
 }
 
 @media (max-width: 992px) {
+  .hero__content {
+    padding-left: 3%;
+  }
   .site-header {
     flex-direction: column;
     align-items: flex-start;
